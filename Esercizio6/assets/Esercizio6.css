@@ -1,0 +1,99 @@
+body {
+    max-width: 90%;
+    margin-left: 77px;
+    background-color: azure;
+}
+
+/* Intestazione */
+
+h1 {
+    text-align: center;
+    color: rgb(128, 24, 224);
+    background-color:rgb(223, 189, 143);
+}
+
+
+/* Main */
+#flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 115px;
+    justify-content: space-around;
+    width: 200vh;
+ }
+
+ table {
+    width: 15%;
+    background-color: rgb(199, 208, 185);
+    margin-left: -140px;
+    border-radius: 25px;
+ }
+
+ img {
+    object-fit: contain;
+    margin-left: 45px;
+    border-radius: 15px;
+ }
+
+
+td {
+    text-align: justify;
+}
+
+.prezzo {
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+}
+
+a {
+    font-weight: bold;
+    color: rgb(188, 34, 145);
+  margin-left: 70px;
+  text-decoration: none;
+}
+
+     /* Footer */
+  
+#address {
+    margin-top: 232px;
+    text-align: center;
+font-style: italic;
+font-size: 18px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+#comments {
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    border-radius: 3px;
+    background-color: blueviolet;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.myClass {
+    color:green;
+    font-style: italic;
+}
+
+img:hover {
+    opacity: hidden;
+}
+
